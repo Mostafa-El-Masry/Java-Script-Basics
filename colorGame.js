@@ -192,23 +192,23 @@ b = c;
 
 // Object-Oriented Programming (OOP)
 
-function Circle(radius) {
-  return {
-    radius,
+// function Circle(radius) {
+//   return {
+//     radius,
 
-    location: {
-      x: 1,
-      y: 1,
-    },
+//     location: {
+//       x: 1,
+//       y: 1,
+//     },
 
-    isVisable: true,
-    draw() {
-      console.log(Circle);
-    },
-  };
-}
+//     isVisable: true,
+//     draw() {
+//       console.log(Circle);
+//     },
+//   };
+// }
 
-console.log(Circle(1));
+// console.log(Circle(1));
 
-delete Circle.radius;
-delete Circle.draw;
+// delete Circle.radius;
+// delete Circle.draw;
